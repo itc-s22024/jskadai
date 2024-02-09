@@ -2,7 +2,7 @@ services:
   db:
     image: postgres:13.13
     environment:
-      POSTGERS_PASSWORD: hogefuga
+      POSTGRES_PASSWORD: hogefuga
     ports:
       - "25432:5432"
     volumes:
